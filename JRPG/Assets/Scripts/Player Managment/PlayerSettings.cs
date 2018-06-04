@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour {
-    public float speed = 0;
+public class PlayerSettings : MonoBehaviour {
+
+    public bool hardcore = false;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -11,6 +13,6 @@ public class PlayerMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Translate(new Vector3(Input.GetAxis("Horizontal"),0.0f,Input.GetAxis("Vertical"))*speed*Time.deltaTime);
+		
 	}
 }

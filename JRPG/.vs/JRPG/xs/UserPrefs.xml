@@ -1,8 +1,13 @@
 ﻿<Properties StartupConfiguration="{7AB1B8A2-85B9-622D-9DCF-AD3F026162A2}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TestMove.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/TestNotification.cs">
     <Files>
-      <File FileName="Assets/Scripts/TestMove.cs" Line="6" Column="5" />
+      <File FileName="Assets/Scripts/Player Managment/Inventory.cs" Line="12" Column="5" />
+      <File FileName="Assets/Scripts/Player Managment/InventoryInterface.cs" Line="9" Column="25" />
+      <File FileName="Assets/Scripts/Player Managment/PlayerSettings.cs" Line="17" Column="3" />
+      <File FileName="Assets/Scripts/UI/NotificationSelfDestruct.cs" Line="11" Column="6" />
+      <File FileName="Assets/Scripts/UI/UINotificationManager.cs" Line="30" Column="53" />
+      <File FileName="Assets/Scripts/UI/TestNotification.cs" Line="7" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
