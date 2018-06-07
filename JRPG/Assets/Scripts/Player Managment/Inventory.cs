@@ -9,6 +9,7 @@ public class Inventory : MonoBehaviour {
     public Dictionary<int, InventoryInterface> bInventory = new Dictionary<int, InventoryInterface>();
 
     public PlayerSettings settings;
+    public UINotificationManager notificationManager;
 
     public int pInventorySize = 0;
     public int bInventorySize = 0;
@@ -184,7 +185,10 @@ public class Inventory : MonoBehaviour {
         InventoryInterface invItem = item.GetComponent<InventoryInterface>();
         AddToInventory(invItem, addMode);
         if (invItem.added)
+        {
+            notificationManager.CreateNotification(invItem.itemName + " has been added to your inventory", null, 3,UINotificationManager.NotificationType.Text);
             Destroy(item);
+        }
     }
 
 }

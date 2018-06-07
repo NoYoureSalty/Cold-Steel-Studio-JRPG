@@ -5,8 +5,13 @@ using UnityEngine;
 public class NotificationSelfDestruct : MonoBehaviour {
 
     public float destroyTime;
+    public UINotificationManager.NotificationType type;
 
-    public void OnCreation(){
+	private void Update()
+	{
+	    
+	}
+	public void OnCreation(){
         Destroy(this.gameObject, destroyTime);
     }
 }

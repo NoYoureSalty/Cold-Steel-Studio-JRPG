@@ -62,11 +62,11 @@
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Controls\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\Debug\TestMove.cs" />
+    <Compile Include="Assets\Scripts\Debug\TestNotification.cs" />
     <Compile Include="Assets\Scripts\Player Managment\Inventory.cs" />
     <Compile Include="Assets\Scripts\Player Managment\InventoryInterface.cs" />
     <Compile Include="Assets\Scripts\Player Managment\PlayerSettings.cs" />
     <Compile Include="Assets\Scripts\UI\NotificationSelfDestruct.cs" />
-    <Compile Include="Assets\Scripts\UI\TestNotification.cs" />
     <Compile Include="Assets\Scripts\UI\UINotificationManager.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/Rory/Documents/GitHub/Cold-Steel-Studio-JRPG/JRPG/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
