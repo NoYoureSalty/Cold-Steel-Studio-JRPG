@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour {
     public float walkspeed = 0;
     public float runspeed = 0;
+    public float zmod;
     float speed;
     float speedmod = 1;
     bool walkToggle = false;
@@ -18,7 +19,7 @@ public class PlayerMove : MonoBehaviour {
 	private void FixedUpdate()
 	{
         //movement
-        rigid.velocity = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical")) * speed * speedmod;
+        rigid.velocity = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical") * zmod) * speed * speedmod;
 	}
 	// Update is called once per frame
 	void Update () {
